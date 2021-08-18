@@ -1,0 +1,22 @@
+{
+  "name": "todo_api",
+  "version": "1.0.0",
+  "description": "TODO API - CRUD ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "list",
+    "todo"
+  ],
+  "author": "Edit Diószegi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "lokijs": "^1.5.12",
+    "nodemon": "^2.0.12",
+    "uuid": "^8.3.2"
+  }
+}
